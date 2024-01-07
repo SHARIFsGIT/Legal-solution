@@ -1,0 +1,15 @@
+/* universal style */
+*{
+  font-family: 'Alegreya', serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Work Sans', sans-serif;
+}
+
+li>a{
+  margin: 0px 35px 0px 35px;
+}
+li>a::after{
+  content: ">";
+  padding-left: 10px;
+}
