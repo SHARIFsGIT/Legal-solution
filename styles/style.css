@@ -33,6 +33,10 @@ li>a{
   margin: 0px 35px 0px 6px;
 }
 
+.active::after{
+  content: none;
+}
+
 li>a::after{
   content: ">";
   padding-left: 6px;
@@ -52,4 +56,40 @@ header .banner {
 .lh-slide-image {
   height: 500px;
   object-fit: cover;
+}
+
+.lh-accordion {
+  margin: 1rem 0;
+}
+
+.lh-accordion,
+.lh-accordion button {
+  background-color: var(--dark7) !important;
+}
+
+.contact-us .details > div {
+  background-color: var(--white);
+  padding: 2rem;
+  border: 1px solid var(--dark5);
+}
+.contact-us .details * a {
+  display: block;
+  color: var(--dark3);
+  text-decoration: none;
+}
+.contact-us input, .contact-us textarea {
+  background-color: var(--dark7);
+}
+
+footer * p {
+  color: var(--dark5) !important;
+}
+footer * a {
+  display: block;
+  color: var(--dark5);
+  text-decoration: none;
+}
+
+footer .subscribe button {
+  margin-left: -1rem;
 }
